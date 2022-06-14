@@ -1,0 +1,48 @@
+/* * {
+  border: 1px solid red;
+} */
+body {
+  background-color: #003366;
+  height: 100vh;
+}
+
+.toubu {
+  background-color: #99ccff;
+}
+.neirong {
+  background-color: #cccccc;
+}
+
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.center {
+  margin: auto;
+}
+.toubulan {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.flex1 {
+  flex: 1;
+}
+.jvzhong {
+  text-align: center;
+}
+.biaoti {
+  font-family: "GB2312：FangSong_GB2312";
+  font-size: 60px;
+}
+.zhengwen {
+  font-family: ;
+}
+.hollow {
+  text-shadow: 0 0 2px hsl(40, 28.57%, 28.82%), 0 0 2px hsl(40, 28.57%, 28.82%),
+    0 0 2px hsl(40, 28.57%, 28.82%); /*多个叠加*/
+  font-size: 30px;
+  color: #fff;
+}
